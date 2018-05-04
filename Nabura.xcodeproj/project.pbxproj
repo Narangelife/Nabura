@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		946F525E209B1E1400AD098E /* name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F525D209B1E1400AD098E /* name.swift */; };
+		946F5260209B1E7C00AD098E /* selectfunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F525F209B1E7C00AD098E /* selectfunction.swift */; };
+		946F5262209B1EA700AD098E /* usefunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F5261209B1EA700AD098E /* usefunction.swift */; };
 		94884BD4209B13AE0035D315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94884BD3209B13AE0035D315 /* AppDelegate.swift */; };
 		94884BD6209B13AE0035D315 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94884BD5209B13AE0035D315 /* ViewController.swift */; };
 		94884BD9209B13AE0035D315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94884BD7209B13AE0035D315 /* Main.storyboard */; };
 		94884BDB209B13AF0035D315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94884BDA209B13AF0035D315 /* Assets.xcassets */; };
 		94884BDE209B13AF0035D315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94884BDC209B13AF0035D315 /* LaunchScreen.storyboard */; };
+		94884BE6209B15A20035D315 /* sword_art_online_font_by_darkblackswords-d5nssbp.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94884BE5209B15880035D315 /* sword_art_online_font_by_darkblackswords-d5nssbp.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		946F525D209B1E1400AD098E /* name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = name.swift; sourceTree = "<group>"; };
+		946F525F209B1E7C00AD098E /* selectfunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectfunction.swift; sourceTree = "<group>"; };
+		946F5261209B1EA700AD098E /* usefunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usefunction.swift; sourceTree = "<group>"; };
 		94884BD0209B13AE0035D315 /* Nabura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nabura.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94884BD3209B13AE0035D315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94884BD5209B13AE0035D315 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		94884BDA209B13AF0035D315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94884BDD209B13AF0035D315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94884BDF209B13AF0035D315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94884BE5209B15880035D315 /* sword_art_online_font_by_darkblackswords-d5nssbp.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "sword_art_online_font_by_darkblackswords-d5nssbp.otf"; path = "../../../Library/Fonts/sword_art_online_font_by_darkblackswords-d5nssbp.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +65,12 @@
 				94884BD3209B13AE0035D315 /* AppDelegate.swift */,
 				94884BD5209B13AE0035D315 /* ViewController.swift */,
 				94884BD7209B13AE0035D315 /* Main.storyboard */,
+				946F525D209B1E1400AD098E /* name.swift */,
+				946F525F209B1E7C00AD098E /* selectfunction.swift */,
+				946F5261209B1EA700AD098E /* usefunction.swift */,
 				94884BDA209B13AF0035D315 /* Assets.xcassets */,
 				94884BDC209B13AF0035D315 /* LaunchScreen.storyboard */,
+				94884BE5209B15880035D315 /* sword_art_online_font_by_darkblackswords-d5nssbp.otf */,
 				94884BDF209B13AF0035D315 /* Info.plist */,
 			);
 			path = Nabura;
@@ -122,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94884BE6209B15A20035D315 /* sword_art_online_font_by_darkblackswords-d5nssbp.otf in Resources */,
 				94884BDE209B13AF0035D315 /* LaunchScreen.storyboard in Resources */,
 				94884BDB209B13AF0035D315 /* Assets.xcassets in Resources */,
 				94884BD9209B13AE0035D315 /* Main.storyboard in Resources */,
@@ -135,6 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				946F525E209B1E1400AD098E /* name.swift in Sources */,
+				946F5260209B1E7C00AD098E /* selectfunction.swift in Sources */,
+				946F5262209B1EA700AD098E /* usefunction.swift in Sources */,
 				94884BD6209B13AE0035D315 /* ViewController.swift in Sources */,
 				94884BD4209B13AE0035D315 /* AppDelegate.swift in Sources */,
 			);
@@ -287,7 +303,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Orange777.Nabura;
+				PRODUCT_BUNDLE_IDENTIFIER = Orange777;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +321,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Orange777.Nabura;
+				PRODUCT_BUNDLE_IDENTIFIER = Orange777;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
